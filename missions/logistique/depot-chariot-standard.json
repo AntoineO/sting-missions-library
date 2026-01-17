@@ -1,0 +1,74 @@
+{
+  "nom": "Dépôt de chariot standard",
+  "version": "2.0",
+  "date_creation": "2026-01-15T10:30:00.000Z",
+  "nombre_briques": 1,
+  "briques": [
+    {
+      "id": "act-28",
+      "parametres": {
+        "nombre_objets": 5,
+        "nombre_actions": 1,
+        "distance": 20
+      }
+    }
+  ],
+  "duree_totale_secondes": 200.4,
+  "duree_totale_formatee": "3min 20s",
+  "briques_details": [
+    {
+      "id": "act-28",
+      "label": "📦 Dépôt de matériel par un client",
+      "parametres": {
+        "nombre_objets": 5,
+        "nombre_actions": 1,
+        "distance": 20
+      },
+      "gestes": [
+        {
+          "id": "ino_di-b001",
+          "label": "se présenter à l'accueil",
+          "volume": 1,
+          "temps_unitaire_secondes": 10.8,
+          "temps_total_secondes": 10.8
+        },
+        {
+          "id": "gbl_mr-b100",
+          "label": "vlh_chargement_ou_dechargement_chariot",
+          "volume": 5,
+          "temps_unitaire_secondes": 25.2,
+          "temps_total_secondes": 126
+        },
+        {
+          "id": "dmt_am-a420",
+          "label": "prendre_et_arrêter_chariot_pleine_charge_sans_manoeuvre",
+          "volume": 5,
+          "temps_unitaire_secondes": 5.4,
+          "temps_total_secondes": 27
+        },
+        {
+          "id": "dmt_am-b410",
+          "label": "déplacer_chariot_pleine_charge",
+          "volume": 100,
+          "temps_unitaire_secondes": 0.18,
+          "temps_total_secondes": 18
+        },
+        {
+          "id": "ctl_il-a001",
+          "label": "compter",
+          "volume": 5,
+          "temps_unitaire_secondes": 3.24,
+          "temps_total_secondes": 16.2
+        },
+        {
+          "id": "ctl_it-a013",
+          "label": "controle_aspect",
+          "volume": 5,
+          "temps_unitaire_secondes": 0.72,
+          "temps_total_secondes": 3.6
+        }
+      ],
+      "duree_totale_secondes": 200.4
+    }
+  ]
+}
