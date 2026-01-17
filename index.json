@@ -1,0 +1,62 @@
+{
+  "version": "1.0",
+  "derniere_maj": "2026-01-17",
+  "missions": [
+    {
+      "id": "logistique-depot-chariot-v1",
+      "nom": "Dépôt de chariot standard",
+      "description": "Dépôt de 5 chariots depuis le quai jusqu'à la zone de stockage (20m). Inclut contrôle visuel et comptage.",
+      "categorie": "logistique",
+      "tags": ["chariot", "depot", "entrepot", "manutention"],
+      "auteur": "Équipe Sting",
+      "duree_estimee": "3min 20s",
+      "nombre_briques": 1,
+      "fichier": "missions/logistique/depot-chariot-standard.json",
+      "date_creation": "2026-01-15"
+    },
+    {
+      "id": "controles-qualite-pharma-v1",
+      "nom": "Contrôle qualité pharmaceutique",
+      "description": "Contrôle d'intégrité de 100 produits pharmaceutiques avec 3 points de contrôle par produit.",
+      "categorie": "controles",
+      "tags": ["controle", "qualite", "pharmaceutique", "integrite"],
+      "auteur": "Jean Dupont",
+      "duree_estimee": "5min 40s",
+      "nombre_briques": 1,
+      "fichier": "missions/controles/controle-qualite-pharma.json",
+      "date_creation": "2026-01-16"
+    },
+    {
+      "id": "avant-prestation-ouverture-mission-v1",
+      "nom": "Ouverture de mission simple",
+      "description": "Consultation et ouverture d'une mission standard sur smartphone avant prestation.",
+      "categorie": "avant-prestation",
+      "tags": ["smartphone", "ouverture", "mission"],
+      "auteur": "Équipe Sting",
+      "duree_estimee": "12s",
+      "nombre_briques": 1,
+      "fichier": "missions/avant-prestation/ouverture-mission.json",
+      "date_creation": "2026-01-15"
+    }
+  ],
+  "categories": [
+    {
+      "id": "logistique",
+      "label": "Logistique",
+      "icon": "📦",
+      "description": "Missions de manutention, transport et dépôt"
+    },
+    {
+      "id": "controles",
+      "label": "Contrôles",
+      "icon": "🔍",
+      "description": "Missions de contrôle qualité et vérification"
+    },
+    {
+      "id": "avant-prestation",
+      "label": "Avant la prestation",
+      "icon": "🚀",
+      "description": "Missions préparatoires et ouverture"
+    }
+  ]
+}
