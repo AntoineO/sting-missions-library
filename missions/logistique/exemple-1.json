@@ -1,0 +1,145 @@
+{
+  "nom": "Exemple 1",
+  "date_calcul": "2026-01-17T13:46:24.798Z",
+  "duree_totale_secondes": 1152.4679999999998,
+  "duree_totale_formatee": "19min 12s",
+  "briques": [
+    {
+      "id": "prod-13",
+      "label": "🚀 Ouverture de mission",
+      "parametres": {
+        "nombre_prestations": 1
+      },
+      "gestes": [
+        {
+          "id": "mis_sp-a002",
+          "label": "consulter_mission_sur_smartphone",
+          "volume": 1,
+          "temps_unitaire_secondes": 22.427999999999997,
+          "temps_total_secondes": 22.427999999999997
+        }
+      ],
+      "duree_totale_secondes": 22.427999999999997
+    },
+    {
+      "id": "act-12",
+      "label": "🔍 Réalisation d'un contrôle sans manipulation",
+      "parametres": {
+        "type_controle": "PRESENCE",
+        "nombre_points_controle": 1,
+        "nombre_objets": 10
+      },
+      "gestes": [
+        {
+          "id": "ctl_it-a013",
+          "label": "controle_aspect",
+          "volume": 0,
+          "temps_unitaire_secondes": 3.1319999999999997,
+          "temps_total_secondes": 0
+        },
+        {
+          "id": "ctl_il-a001",
+          "label": "compter",
+          "volume": 0,
+          "temps_unitaire_secondes": 0.432,
+          "temps_total_secondes": 0
+        },
+        {
+          "id": "ctl_it-a004",
+          "label": "controle_visuel_sans_manipulation",
+          "volume": 10,
+          "temps_unitaire_secondes": 0.288,
+          "temps_total_secondes": 2.88
+        }
+      ],
+      "duree_totale_secondes": 2.88
+    },
+    {
+      "id": "act-12",
+      "label": "🔍 Réalisation d'un contrôle sans manipulation",
+      "parametres": {
+        "type_controle": "INTEGRITE",
+        "nombre_points_controle": 1,
+        "nombre_objets": 10
+      },
+      "gestes": [
+        {
+          "id": "ctl_it-a013",
+          "label": "controle_aspect",
+          "volume": 10,
+          "temps_unitaire_secondes": 3.1319999999999997,
+          "temps_total_secondes": 31.319999999999997
+        },
+        {
+          "id": "ctl_il-a001",
+          "label": "compter",
+          "volume": 0,
+          "temps_unitaire_secondes": 0.432,
+          "temps_total_secondes": 0
+        },
+        {
+          "id": "ctl_it-a004",
+          "label": "controle_visuel_sans_manipulation",
+          "volume": 0,
+          "temps_unitaire_secondes": 0.288,
+          "temps_total_secondes": 0
+        }
+      ],
+      "duree_totale_secondes": 31.319999999999997
+    },
+    {
+      "id": "act-28",
+      "label": "📦 Dépôt de matériel par un client",
+      "parametres": {
+        "nombre_objets": 10,
+        "nombre_actions": 1,
+        "distance": 25
+      },
+      "gestes": [
+        {
+          "id": "ino_di-b001",
+          "label": "se présenter à l'accueil",
+          "volume": 1,
+          "temps_unitaire_secondes": 4.68,
+          "temps_total_secondes": 4.68
+        },
+        {
+          "id": "gbl_mr-b100",
+          "label": "vlh_chargement_ou_dechargement_chariot",
+          "volume": 10,
+          "temps_unitaire_secondes": 53.568000000000005,
+          "temps_total_secondes": 535.6800000000001
+        },
+        {
+          "id": "dmt_am-a420",
+          "label": "prendre_et_arrêter_chariot_pleine_charge_sans_manoeuvre",
+          "volume": 10,
+          "temps_unitaire_secondes": 12.383999999999999,
+          "temps_total_secondes": 123.83999999999999
+        },
+        {
+          "id": "dmt_am-b410",
+          "label": "déplacer_chariot_pleine_charge",
+          "volume": 250,
+          "temps_unitaire_secondes": 1.584,
+          "temps_total_secondes": 396
+        },
+        {
+          "id": "ctl_il-a001",
+          "label": "compter",
+          "volume": 10,
+          "temps_unitaire_secondes": 0.432,
+          "temps_total_secondes": 4.32
+        },
+        {
+          "id": "ctl_it-a013",
+          "label": "controle_aspect",
+          "volume": 10,
+          "temps_unitaire_secondes": 3.1319999999999997,
+          "temps_total_secondes": 31.319999999999997
+        }
+      ],
+      "duree_totale_secondes": 1095.84
+    }
+  ]
+}
